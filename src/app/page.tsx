@@ -61,7 +61,7 @@ export  default function Homeimport(){
 
     {/*Image Tag*/}
     
-    <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="/images/Saad.jpg" width={200} height={200} />
+    <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="/Images/Saad.jpg" width={200} height={200} />
     <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
     
     {/*Type Writer Effect*/}
@@ -266,7 +266,7 @@ export  default function Homeimport(){
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-purple-800 rounded-lg overflow-hidden">
-        <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="/images/Calculator.png" width={300} height={250} /> 
+        <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="/Images/Calculator.png" width={300} height={250} /> 
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-black-800 text-bold mb-1">Project 1</h2>
             <h1 className="title-font text-lg font-large text-yellow mb-3 ">THE CALCULATOR</h1>
@@ -295,7 +295,7 @@ export  default function Homeimport(){
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-        <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="/images/guessthenumber.png" width={300} height={250} />
+        <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="/Images/guessthenumber.png" width={300} height={250} />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-black-800 text-bold mb-1">Project 2</h2>
             <h1 className="title-font text-lg font-medium text-sky mb-3">Guess the Number</h1>
@@ -324,7 +324,7 @@ export  default function Homeimport(){
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-        <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="/images/todolist.png" width={300} height={250} />
+        <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="/Images/todolist.png" width={300} height={250} />
             <h2 className="tracking-widest text-xs title-font font-medium text-black-800 text-bold mb-1">Project 3</h2>
             <h1 className="title-font text-lg font-medium text-sky mb-3">To-do list</h1>
             <p className="leading-relaxed mb-3 font-medium text-yellow-600">This is my to-do list project.</p>
