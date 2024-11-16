@@ -16,6 +16,7 @@ import { FaGithub } from "react-icons/fa";
 import { IoCodeSlash } from "react-icons/io5";
 import { RxDesktop } from "react-icons/rx";
 import { SiGooglecontaineroptimizedos } from "react-icons/si";
+import Image from 'next/image';
 
 
 
@@ -60,8 +61,9 @@ export  default function Homeimport(){
 
     {/*Image Tag*/}
     
-    <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="../images/Saad.jpg"/>
+    <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="/images/Saad.jpg" width={200} height={200} />
     <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
+    
     {/*Type Writer Effect*/}
        <h1 className="title-font sm:text-4x1 text-3x1 mb-4 font medium text-white"><Typewriter
   options={{
@@ -264,7 +266,7 @@ export  default function Homeimport(){
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-purple-800 rounded-lg overflow-hidden">
-          <img className="lg:h-60 md:h-32 w-55 object-cover object-center" src="../images/Calculator.png" alt="blog"/> 
+        <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="/images/Calculator.png" width={300} height={250} /> 
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-black-800 text-bold mb-1">Project 1</h2>
             <h1 className="title-font text-lg font-large text-yellow mb-3 ">THE CALCULATOR</h1>
@@ -293,7 +295,7 @@ export  default function Homeimport(){
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-          <img className="lg:h-60 md:h-55 w-85 object-cover object-center" src="../images/guessthenumber.png" alt="blog"/> 
+        <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="/images/guessthenumber.png" width={300} height={250} />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-black-800 text-bold mb-1">Project 2</h2>
             <h1 className="title-font text-lg font-medium text-sky mb-3">Guess the Number</h1>
@@ -322,7 +324,7 @@ export  default function Homeimport(){
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-          <img className="lg:h-100 md:h-90 w-90 object-cover object-center" src="../images/todolist.png" alt="blog"/>
+        <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="/images/todolist.png" width={300} height={250} />
             <h2 className="tracking-widest text-xs title-font font-medium text-black-800 text-bold mb-1">Project 3</h2>
             <h1 className="title-font text-lg font-medium text-sky mb-3">To-do list</h1>
             <p className="leading-relaxed mb-3 font-medium text-yellow-600">This is my to-do list project.</p>
