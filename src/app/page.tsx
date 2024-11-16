@@ -61,7 +61,7 @@ export  default function Homeimport(){
 
     {/*Image Tag*/}
     
-    <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="/Images/Saad.jpg" width={200} height={200} />
+    <Image  alt="hero" src="/Images/Saad.jpg" width={500} height={500} className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" />
     <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
     
     {/*Type Writer Effect*/}
